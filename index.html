@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vẽ hình online – Kiểm tra điều kiện</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+
+        <main>
+            <section id="question-panel">
+                <header>
+                    <h1>📐 Vẽ hình & Kiểm tra 1.0</h1>
+                </header>
+                <div>
+                    <button id="btn-random">🎲 Câu hỏi mới</button>
+                    <button id="btn-reset">🔄 Làm lại</button>
+                    <button id="btn-check">✅ Kiểm tra</button>
+                </div>
+                <div id="question-text"></div>
+                <div id="result">
+                    <span id="stats" style="margin-left:20px; color:#aaa; font-size:14px;"></span><br>
+                    <span id="result-text"></span>
+                </div>
+                <div id="hint" style="font-size:14px; color:#aaa; margin-top:10px;">
+                    💡 Kéo thả các điểm để thay đổi hình. Lưu ý: <br>- Không có yêu cầu cụ thể về kích thước của tam giác, bạn chỉ cần đảm bảo nó đúng yêu cầu của đề bài và tự canh khoảng cách vị trí của 2 đầu đoạn thẳng để trung điểm của nó nằm trên 1 đỉnh ô vuông. <br>- Web hoạt động tốt trên máy tính hơn, chưa hỗ trợ với điện thoại di động.
+                </div>
+            </section>
+
+            <section id="drawing-area">
+                <svg id="svg-grid" width="550" height="550"></svg>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
