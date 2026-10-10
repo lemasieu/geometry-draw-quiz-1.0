@@ -4,7 +4,7 @@ An interactive geometry learning tool where users can drag points on a grid to v
 
 ## 🚀 Live Demo
 
-[https://xn--msiu-goa8b.vn/github/geometry-draw-quiz-1.0](https://xn--msiu-goa8b.vn/github/geometry-draw-quiz-1.0)
+[https://www.sieu.io.vn/github/geometry-draw-quiz-1.0](https://www.sieu.io.vn/github/geometry-draw-quiz-1.0)
 
 ## ✨ Features
 
@@ -96,14 +96,9 @@ All expressions are evaluated inside a sandboxed function that references the cu
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
-- Add more geometry problems.
-- Improve the UI/UX.
-- Optimise the evaluation engine.
-- Translate the interface into other languages.
-
-Please open an issue or submit a pull request.
-
-## 📄 License
-
-This project is open source and available under the MIT License. Made by Deepseek with my idea.
+Contributions are welcome! Feel free to submit a Pull Request or open an Issue.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
